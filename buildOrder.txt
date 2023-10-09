@@ -174,3 +174,26 @@
 [ 99%] Built target bf_freestyle
 [100%] Building C object source/creator/CMakeFiles/blender.dir/buildinfo.c.o
 [100%] Linking CXX executable ../../bin/blender
+
+
+GitHub Copilot: 如果你只想编译bf_blenlib，你需要一起编译以下库：
+
+- bf_intern_atomic
+- bf_intern_clog
+- bf_intern_guardedalloc
+- datatoc
+- bf_intern_mikktspace
+- bf_intern_eigen
+- bf_intern_sky
+- bf_intern_audaspace
+- bf_intern_dualcon
+- bf_intern_iksolver
+- bf_intern_libmv
+- bf_compositor_shaders
+- smaa_areatex
+- datatoc_icon
+- bf_intern_itasc
+- bf_gpu_shaders
+- bf_dna_blenlib
+
+这些库文件是bf_blenlib所依赖的库文件，需要在编译bf_blenlib之前先编译它们。在buildOrder.txt文件中，这些库文件的编译顺序在bf_blenlib之前，因此你可以按照buildOrder.txt文件中的顺序编译它们。
