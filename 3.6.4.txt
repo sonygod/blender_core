@@ -1,0 +1,1 @@
+git clone --branch v3.6.4 https://github.com/blender/blender.git

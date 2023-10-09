@@ -197,3 +197,323 @@ GitHub Copilot: 如果你只想编译bf_blenlib，你需要一起编译以下库
 - bf_dna_blenlib
 
 这些库文件是bf_blenlib所依赖的库文件，需要在编译bf_blenlib之前先编译它们。在buildOrder.txt文件中，这些库文件的编译顺序在bf_blenlib之前，因此你可以按照buildOrder.txt文件中的顺序编译它们。
+
+headless
+Consolidate compiler generated dependencies of target bf_intern_clog
+Consolidate compiler generated dependencies of target datatoc
+Consolidate compiler generated dependencies of target bf_intern_guardedalloc
+Consolidate compiler generated dependencies of target bf_intern_sky
+Consolidate compiler generated dependencies of target bf_intern_eigen
+Consolidate compiler generated dependencies of target extern_fmtlib
+Consolidate compiler generated dependencies of target extern_rangetree
+Consolidate compiler generated dependencies of target bf_intern_libc_compat
+Consolidate compiler generated dependencies of target bf_intern_quadriflow
+Consolidate compiler generated dependencies of target bf_intern_locale
+Consolidate compiler generated dependencies of target extern_wcwidth
+Consolidate compiler generated dependencies of target bf_intern_dualcon
+Consolidate compiler generated dependencies of target bf_intern_rigidbody
+Consolidate compiler generated dependencies of target extern_curve_fit_nd
+Consolidate compiler generated dependencies of target bf_intern_openvdb
+Consolidate compiler generated dependencies of target extern_nanosvg
+Consolidate compiler generated dependencies of target bf_intern_iksolver
+Consolidate compiler generated dependencies of target bf_intern_itasc
+[  0%] Built target datatoc
+[  0%] Built target bf_intern_rigidbody
+[  0%] Built target bf_intern_mikktspace
+[  0%] Built target bf_intern_libc_compat
+[  0%] Built target bf_intern_guardedalloc
+[  0%] Built target bf_intern_clog
+[  0%] Built target extern_wcwidth
+[  0%] Built target bf_intern_sky
+[  0%] Built target bf_intern_quadriflow
+[  0%] Built target extern_fmtlib
+[  1%] Built target extern_nanosvg
+[  1%] Built target extern_curve_fit_nd
+[  1%] Built target bf_intern_atomic
+Consolidate compiler generated dependencies of target bf_intern_libmv
+[  1%] Built target extern_rangetree
+Consolidate compiler generated dependencies of target extern_binreloc
+[  2%] Built target bf_intern_eigen
+[  2%] Built target bf_intern_dualcon
+[  2%] Built target bf_intern_locale
+[  2%] Built target bf_intern_openvdb
+Consolidate compiler generated dependencies of target extern_minilzo
+Consolidate compiler generated dependencies of target bf_editor_datafiles
+Consolidate compiler generated dependencies of target extern_gflags
+[  2%] Built target bf_intern_iksolver
+Consolidate compiler generated dependencies of target extern_clew
+Consolidate compiler generated dependencies of target smaa_areatex
+Consolidate compiler generated dependencies of target extern_lzma
+Consolidate compiler generated dependencies of target extern_glog
+Consolidate compiler generated dependencies of target bf_dna_blenlib
+[  2%] Built target extern_binreloc
+Consolidate compiler generated dependencies of target bf_ocio_shaders
+Consolidate compiler generated dependencies of target bf_gpu_shaders
+Consolidate compiler generated dependencies of target bf_intern_opensubdiv
+Consolidate compiler generated dependencies of target bf_compositor_shaders
+[  2%] Built target extern_minilzo
+[  2%] Generating buildinfo.h_fake, buildinfo.h
+[  2%] Built target bf_editor_datafiles
+[  2%] Built target extern_clew
+Consolidate compiler generated dependencies of target extern_quadriflow
+[  3%] Built target smaa_areatex
+[  3%] Built target extern_lzma
+[  3%] Built target extern_gflags
+Consolidate compiler generated dependencies of target extern_bullet
+Consolidate compiler generated dependencies of target draco
+[  4%] Built target bf_dna_blenlib
+[  4%] Built target bf_ocio_shaders
+[  4%] Built target extern_glog
+Consolidate compiler generated dependencies of target extern_mantaflow
+Consolidate compiler generated dependencies of target makesdna
+Consolidate compiler generated dependencies of target bf_draw_shaders
+[  6%] Built target bf_intern_opensubdiv
+[ 13%] Built target bf_compositor_shaders
+[ 16%] Built target bf_gpu_shaders
+[ 17%] Built target bf_intern_itasc
+[ 17%] Built target makesdna
+Consolidate compiler generated dependencies of target bf_dna
+[ 35%] Built target bf_draw_shaders
+[ 36%] Built target bf_intern_libmv
+[ 36%] Built target bf_dna
+[ 36%] Built target extern_quadriflow
+Consolidate compiler generated dependencies of target extern_ceres
+Consolidate compiler generated dependencies of target bf_intern_memutil
+Consolidate compiler generated dependencies of target bf_intern_mantaflow
+[ 36%] Built target buildinfo
+Consolidate compiler generated dependencies of target bf_nodes_functions_generated
+Consolidate compiler generated dependencies of target bf_intern_opencolorio
+Consolidate compiler generated dependencies of target bf_editor_lattice
+Consolidate compiler generated dependencies of target bf_editor_metaball
+Consolidate compiler generated dependencies of target bf_ikplugin
+Consolidate compiler generated dependencies of target bf_imbuf_openimageio
+Consolidate compiler generated dependencies of target bf_blenfont
+Consolidate compiler generated dependencies of target bf_imbuf_openexr
+Consolidate compiler generated dependencies of target bf_editor_space_script
+Consolidate compiler generated dependencies of target bf_editor_mask
+Consolidate compiler generated dependencies of target bf_editor_space_userpref
+Consolidate compiler generated dependencies of target bf_intern_ghost
+Consolidate compiler generated dependencies of target bf_avi
+Consolidate compiler generated dependencies of target bf_functions
+Consolidate compiler generated dependencies of target bf_gpu
+Consolidate compiler generated dependencies of target bf_imbuf_cineon
+[ 37%] Built target bf_intern_opencolorio
+[ 37%] Built target bf_intern_memutil
+[ 37%] Built target draco
+[ 37%] Built target bf_editor_metaball
+[ 37%] Built target bf_blenfont
+[ 37%] Built target bf_editor_space_script
+[ 37%] Built target bf_editor_space_userpref
+[ 37%] Built target bf_intern_mantaflow
+[ 37%] Built target bf_imbuf_openimageio
+[ 37%] Built target bf_nodes_functions_generated
+[ 37%] Built target bf_avi
+Consolidate compiler generated dependencies of target bf_blenlib
+[ 37%] Built target bf_editor_lattice
+[ 37%] Built target bf_imbuf_openexr
+[ 37%] Built target bf_ikplugin
+[ 37%] Built target bf_intern_ghost
+[ 37%] Built target bf_editor_mask
+[ 38%] Built target extern_mantaflow
+Consolidate compiler generated dependencies of target extern_draco
+Consolidate compiler generated dependencies of target bf_nodes_function
+Consolidate compiler generated dependencies of target makesrna
+Consolidate compiler generated dependencies of target buildinfoobj
+[ 38%] Built target bf_imbuf_cineon
+Consolidate compiler generated dependencies of target bf_python_ext
+[ 38%] Built target bf_functions
+[ 41%] Built target extern_bullet
+[ 41%] Building C object source/creator/CMakeFiles/buildinfoobj.dir/buildinfo.c.o
+[ 42%] Built target extern_draco
+Consolidate compiler generated dependencies of target bf_python_gpu
+[ 42%] Built target bf_nodes_function
+[ 42%] Built target buildinfoobj
+[ 42%] Built target bf_python_ext
+[ 43%] Built target bf_gpu
+[ 44%] Built target bf_python_gpu
+[ 47%] Built target bf_blenlib
+Consolidate compiler generated dependencies of target msgfmt
+Consolidate compiler generated dependencies of target blender-thumbnailer
+[ 47%] Built target msgfmt
+[ 47%] Built target blender-thumbnailer
+[ 49%] Built target makesrna
+[ 50%] Built target locales
+[ 53%] Built target extern_ceres
+Consolidate compiler generated dependencies of target bf_rna
+[ 55%] Built target bf_rna
+Consolidate compiler generated dependencies of target bf_compositor
+[ 56%] Built target bf_compositor
+Consolidate compiler generated dependencies of target bf_nodes_geometry_generated
+[ 56%] Built target bf_nodes_geometry_generated
+Consolidate compiler generated dependencies of target bf_editor_geometry
+Consolidate compiler generated dependencies of target bf_editor_curve
+Consolidate compiler generated dependencies of target bf_editor_scene
+Consolidate compiler generated dependencies of target bf_editor_sound
+Consolidate compiler generated dependencies of target bf_editor_space_api
+Consolidate compiler generated dependencies of target bf_editor_gizmo_library
+Consolidate compiler generated dependencies of target bf_editor_asset
+Consolidate compiler generated dependencies of target bf_editor_curves
+Consolidate compiler generated dependencies of target bf_editor_grease_pencil
+Consolidate compiler generated dependencies of target bf_editor_space_console
+Consolidate compiler generated dependencies of target bf_editor_animation
+Consolidate compiler generated dependencies of target bf_editor_armature
+Consolidate compiler generated dependencies of target bf_editor_space_buttons
+Consolidate compiler generated dependencies of target bf_editor_io
+Consolidate compiler generated dependencies of target bf_editor_space_action
+Consolidate compiler generated dependencies of target bf_editor_render
+Consolidate compiler generated dependencies of target bf_editor_physics
+Consolidate compiler generated dependencies of target bf_editor_space_clip
+Consolidate compiler generated dependencies of target bf_editor_gpencil_legacy
+Consolidate compiler generated dependencies of target bf_editor_object
+Consolidate compiler generated dependencies of target bf_editor_mesh
+Consolidate compiler generated dependencies of target bf_editor_space_file
+Consolidate compiler generated dependencies of target bf_editor_interface
+[ 56%] Built target bf_editor_scene
+[ 56%] Built target bf_editor_sound
+[ 56%] Built target bf_editor_space_api
+[ 56%] Built target bf_editor_geometry
+[ 56%] Built target bf_editor_space_console
+[ 57%] Built target bf_editor_space_action
+[ 57%] Built target bf_editor_grease_pencil
+[ 57%] Built target bf_editor_curves
+[ 57%] Built target bf_editor_space_buttons
+[ 58%] Built target bf_editor_asset
+[ 59%] Built target bf_editor_physics
+[ 59%] Built target bf_editor_animation
+[ 59%] Built target bf_editor_curve
+[ 60%] Built target bf_editor_gizmo_library
+Consolidate compiler generated dependencies of target bf_editor_sculpt_paint
+[ 60%] Built target bf_editor_render
+[ 60%] Built target bf_editor_io
+[ 60%] Built target bf_editor_armature
+Consolidate compiler generated dependencies of target bf_editor_space_info
+Consolidate compiler generated dependencies of target bf_editor_space_graph
+Consolidate compiler generated dependencies of target bf_editor_space_nla
+Consolidate compiler generated dependencies of target bf_editor_space_topbar
+Consolidate compiler generated dependencies of target bf_editor_space_image
+Consolidate compiler generated dependencies of target bf_editor_space_statusbar
+Consolidate compiler generated dependencies of target bf_editor_space_text
+Consolidate compiler generated dependencies of target bf_editor_undo
+[ 60%] Built target bf_editor_space_file
+Consolidate compiler generated dependencies of target bf_editor_space_spreadsheet
+Consolidate compiler generated dependencies of target bf_editor_space_node
+Consolidate compiler generated dependencies of target bf_editor_util
+Consolidate compiler generated dependencies of target bf_editor_space_sequencer
+Consolidate compiler generated dependencies of target bf_editor_uvedit
+Consolidate compiler generated dependencies of target bf_editor_screen
+[ 60%] Built target bf_editor_space_clip
+Consolidate compiler generated dependencies of target bf_editor_space_outliner
+[ 60%] Built target bf_editor_space_statusbar
+[ 60%] Built target bf_editor_space_topbar
+[ 60%] Built target bf_editor_gpencil_legacy
+Consolidate compiler generated dependencies of target bf_editor_space_view3d
+[ 60%] Built target bf_editor_space_info
+[ 61%] Built target bf_editor_undo
+[ 61%] Built target bf_editor_space_graph
+[ 61%] Built target bf_editor_space_nla
+[ 61%] Built target bf_editor_space_image
+[ 62%] Built target bf_editor_space_text
+Consolidate compiler generated dependencies of target bf_asset_system
+[ 62%] Built target bf_editor_object
+[ 63%] Built target bf_editor_util
+[ 64%] Built target bf_editor_mesh
+Consolidate compiler generated dependencies of target bf_blentranslation
+Consolidate compiler generated dependencies of target bf_windowmanager
+Consolidate compiler generated dependencies of target bf_animrig
+Consolidate compiler generated dependencies of target bf_editor_transform
+Consolidate compiler generated dependencies of target bf_render
+[ 64%] Built target bf_editor_uvedit
+[ 64%] Built target bf_editor_space_sequencer
+Consolidate compiler generated dependencies of target bf_blenloader
+Consolidate compiler generated dependencies of target bf_simulation
+[ 64%] Built target bf_blentranslation
+Consolidate compiler generated dependencies of target bf_render_hydra
+[ 64%] Built target bf_editor_screen
+[ 64%] Built target bf_editor_space_node
+[ 64%] Built target bf_animrig
+Consolidate compiler generated dependencies of target bf_geometry
+Consolidate compiler generated dependencies of target bf_imbuf
+[ 64%] Built target bf_asset_system
+Consolidate compiler generated dependencies of target bf_nodes_composite
+Consolidate compiler generated dependencies of target bf_nodes
+[ 66%] Built target bf_editor_interface
+[ 66%] Built target bf_editor_space_spreadsheet
+[ 66%] Built target bf_simulation
+Consolidate compiler generated dependencies of target bf_depsgraph
+Consolidate compiler generated dependencies of target bf_nodes_shader
+Consolidate compiler generated dependencies of target bf_bmesh
+[ 66%] Built target bf_render
+Consolidate compiler generated dependencies of target bf_nodes_texture
+Consolidate compiler generated dependencies of target bf_io_common
+Consolidate compiler generated dependencies of target bf_nodes_geometry
+Consolidate compiler generated dependencies of target bf_sequencer
+Consolidate compiler generated dependencies of target bf_gpencil_modifiers_legacy
+[ 67%] Built target bf_blenloader
+Consolidate compiler generated dependencies of target bf_shader_fx
+Consolidate compiler generated dependencies of target bf_io_wavefront_obj
+[ 69%] Built target bf_editor_space_outliner
+[ 70%] Built target bf_nodes_composite
+[ 70%] Built target bf_io_common
+Consolidate compiler generated dependencies of target bf_modifiers
+[ 71%] Built target bf_editor_space_view3d
+[ 71%] Built target bf_nodes
+[ 71%] Built target bf_nodes_shader
+[ 71%] Built target bf_windowmanager
+Consolidate compiler generated dependencies of target bf_io_ply
+Consolidate compiler generated dependencies of target bf_gpencil
+Consolidate compiler generated dependencies of target bf_io_stl
+[ 73%] Built target bf_shader_fx
+[ 73%] Built target bf_imbuf
+[ 73%] Built target bf_geometry
+[ 74%] Built target bf_editor_sculpt_paint
+[ 75%] Built target bf_io_wavefront_obj
+[ 75%] Built target bf_sequencer
+[ 76%] Built target bf_nodes_texture
+Consolidate compiler generated dependencies of target bf_draw
+Consolidate compiler generated dependencies of target bf_io_alembic
+Consolidate compiler generated dependencies of target bf_python_bmesh
+Consolidate compiler generated dependencies of target bf_io_collada
+Consolidate compiler generated dependencies of target bf_blenkernel
+Consolidate compiler generated dependencies of target bf_python_mathutils
+[ 77%] Built target bf_gpencil
+[ 77%] Built target bf_io_stl
+[ 77%] Built target bf_render_hydra
+[ 77%] Built target bf_gpencil_modifiers_legacy
+Consolidate compiler generated dependencies of target bf_realtime_compositor
+[ 77%] Built target bf_io_ply
+Consolidate compiler generated dependencies of target bf_python
+Consolidate compiler generated dependencies of target bf_io_usd
+Consolidate compiler generated dependencies of target bf_freestyle
+[ 77%] Built target bf_python_bmesh
+[ 77%] Built target bf_nodes_geometry
+[ 77%] Built target bf_python_mathutils
+[ 78%] Built target bf_depsgraph
+[ 79%] Built target bf_editor_transform
+[ 80%] Built target bf_realtime_compositor
+[ 85%] Built target bf_freestyle
+[ 86%] Built target bf_io_collada
+[ 86%] Built target bf_io_alembic
+[ 87%] Built target bf_bmesh
+[ 88%] Built target bf_python
+[ 89%] Built target bf_io_usd
+[ 90%] Built target bf_modifiers
+[ 94%] Built target bf_draw
+[ 99%] Built target bf_blenkernel
+
+#disable cycles
+
+set(WITH_CYCLES              OFF CACHE BOOL "" FORCE)
+set(WITH_CYCLES_CUDA_BINARIES OFF CACHE BOOL "" FORCE)
+set(WITH_CYCLES_DEVICE_OPENCL OFF CACHE BOOL "" FORCE)
+set(WITH_CYCLES_LOGGING      OFF CACHE BOOL "" FORCE)
+set(WITH_CYCLES_OSL          OFF CACHE BOOL "" FORCE)
+#WITH_CYCLES_PATH_GUIDING
+set(WITH_CYCLES_STANDALONE   OFF CACHE BOOL "" FORCE)
+#WITH_CYCLES_EMBREE
+set(WITH_CYCLES_EMBREE      OFF CACHE BOOL "" FORCE)
+#WITH_CYCLES_DEVICE_CUDA
+set(WITH_CYCLES_DEVICE_CUDA OFF CACHE BOOL "" FORCE)
+#WITH_CUDA_DYNLOAD
+set(WITH_CUDA_DYNLOAD       OFF CACHE BOOL "" FORCE)
+#WITH_CYCLES_DEVICE_HIP
+set(WITH_CYCLES_DEVICE_HIP OFF CACHE BOOL "" FORCE)
