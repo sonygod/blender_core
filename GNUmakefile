@@ -372,7 +372,7 @@ all: .FORCE
 
 	@echo
 	@echo Building Blender ...
-	$(BUILD_COMMAND) -C "$(BUILD_DIR)" -j $(NPROCS) install
+	$(BUILD_COMMAND) -C "$(BUILD_DIR)" -j $(NPROCS)
 	@echo
 	@echo Edit build configuration with: \"$(BUILD_DIR)/CMakeCache.txt\" run make again to rebuild.
 	@if test -z "$(BLENDER_IS_PYTHON_MODULE)"; then \

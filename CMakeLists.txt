@@ -2168,8 +2168,8 @@ add_subdirectory(tests)
 
 # -----------------------------------------------------------------------------
 # Add Blender Application
-
-if(WITH_BLENDER)
+option(WITH_BLENDER_APP "Build blender APP (disable to build only Cycles stand-alone)." ON)
+if(WITH_BLENDER AND WITH_BLENDER_APP)
   add_subdirectory(source/creator)
 endif()
 
