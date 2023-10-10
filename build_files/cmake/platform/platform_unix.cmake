@@ -193,9 +193,10 @@ endif()
 if(WITH_IMAGE_OPENEXR)
   find_package_wrapper(OpenEXR)  # our own module
   set_and_warn_library_found("OpenEXR" OPENEXR_FOUND WITH_IMAGE_OPENEXR)
+  add_bundled_libraries(openexr/lib)
+  add_bundled_libraries(imath/lib)
 endif()
-add_bundled_libraries(openexr/lib)
-add_bundled_libraries(imath/lib)
+
 
 if(WITH_IMAGE_OPENJPEG)
   find_package_wrapper(OpenJPEG)

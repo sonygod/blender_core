@@ -2172,7 +2172,11 @@ option(WITH_BLENDER_APP "Build blender APP (disable to build only Cycles stand-a
 if(WITH_BLENDER AND WITH_BLENDER_APP)
   add_subdirectory(source/creator)
 endif()
+option(WITH_BLENDER_WASM "Build blender APP (disable to build only Cycles stand-alone)." OFF)
 
+if(WITH_BLENDER_WASM)
+  add_subdirectory(source/wasm)
+endif()
 
 # -----------------------------------------------------------------------------
 # Define 'heavy' sub-modules (for Ninja builder when using pools)
