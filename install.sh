@@ -6,3 +6,4 @@ cd ../lib
 svn checkout https://svn.blender.org/svnroot/bf-blender/trunk/lib/linux_x86_64_glibc_228
 cd ../blender_core
 
+# conda activate py310

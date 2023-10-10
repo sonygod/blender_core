@@ -270,8 +270,9 @@ ifneq "$(findstring cycles, $(MAKECMDGOALS))" ""
 	CMAKE_CONFIG_ARGS:=-C"$(BLENDER_DIR)/build_files/cmake/config/cycles_standalone.cmake" $(CMAKE_CONFIG_ARGS)
 endif
 ifneq "$(findstring headless, $(MAKECMDGOALS))" ""
-	BUILD_DIR:=$(BUILD_DIR)_headless
+    BUILD_DIR:=$(BUILD_DIR)_headless
 	CMAKE_CONFIG_ARGS:=-C"$(BLENDER_DIR)/build_files/cmake/config/blender_headless.cmake" $(CMAKE_CONFIG_ARGS)
+	
 endif
 
 ifneq "$(findstring developer, $(MAKECMDGOALS))" ""
@@ -372,7 +373,7 @@ all: .FORCE
 
 	@echo
 	@echo Building Blender ...
-	$(BUILD_COMMAND) -C "$(BUILD_DIR)" -j $(NPROCS)
+	$(BUILD_COMMAND) -C "$(BUILD_DIR)" -j $(NPROCS) install
 	@echo
 	@echo Edit build configuration with: \"$(BUILD_DIR)/CMakeCache.txt\" run make again to rebuild.
 	@if test -z "$(BLENDER_IS_PYTHON_MODULE)"; then \
