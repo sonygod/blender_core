@@ -207,7 +207,8 @@ if(WITH_XR_OPENXR)
   )
 endif()
 
-blender_add_lib_nolist(bf_windowmanager "${SRC}" "${INC}" "${INC_SYS}" "${LIB}")
+#blender_add_lib_nolist(bf_windowmanager "${SRC}" "${INC}" "${INC_SYS}" "${LIB}")
+blender_add_lib(bf_windowmanager "${SRC}" "${INC}" "${INC_SYS}" "${LIB}")
 
 # RNA_prototypes.h
 add_dependencies(bf_windowmanager bf_rna)
